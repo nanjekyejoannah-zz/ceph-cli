@@ -35,8 +35,6 @@ func NewCephClient (host string, port int) (*CephClient, error){
 	}
 	return cephclient, nil
 
-	
-
 }
 
 func (client *CephClient) connect() error {
